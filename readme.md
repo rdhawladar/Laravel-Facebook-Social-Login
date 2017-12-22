@@ -7,6 +7,17 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## Installation 
+
+#Steps to use Github code for Laravel Socail Login with facebook 
+- Clone the repo in your local file.
+- Go to root of the project and run command “composer update“
+- Edit .env file and use your MySQL database credentials.
+- Configure developers facebook account get client_id and client_secret and also put your Web URL.
+- Run the command “php artisan migrate“
+- Now, we need to bootstrap Laravel server so run “php artisan serve“
+- If now go to this URL: http://localhost:8000/login
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
